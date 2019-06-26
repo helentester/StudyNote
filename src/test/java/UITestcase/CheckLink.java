@@ -14,4 +14,9 @@ public class CheckLink {
     public void test_AllLink(){
         Assert.assertEquals("1","1");
     }
+
+    @Test
+    public void test_01(){
+        Assert.assertEquals(1,1);
+    }
 }
